@@ -1,0 +1,29 @@
+$bp-container: 800px;
+
+.l-container {
+  // --container-margin: #{$BASE_UNIT / 2};
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vw;
+}
+header.l-container.l-measure {
+  background:#fedb8b;
+  width: 100vw !important;
+  max-width: 100vw;
+}
+.l-container {
+  margin: 0 var(--container-margin);
+}
+
+.l-measure {
+  max-width: 65ch;
+
+}
+
+#main-content {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+

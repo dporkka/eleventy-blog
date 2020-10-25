@@ -1,0 +1,62 @@
+.l-navigation {
+  display: flex;
+}
+
+.l-navigation > * {
+  white-space: pre;
+}
+
+.l-navigation > * + * {
+  padding: 0 0.25rem;
+}
+
+.navigation > li > a {
+  text-decoration: none;
+  font-size: 22px;
+}
+.navigation > li > a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+.navigation > li > a:active {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.l-footer-nav {
+  display: var(--footer-nav-display);
+  position: relative;
+  left: 11px;
+}
+body > div > div > header > nav > ul > li:nth-child(1) > a{
+  display: none;
+}
+/*------ hide Contact in footer -------*/
+#contact > div > div > div.l-site-name.l-site-name--footer > div > div > ul > li:nth-child(6) > a {
+  display: none
+}
+@media(max-width: 800px){
+  .navigation {
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -11px;
+    position: relative;
+    left: -8px;
+  }
+
+  .navigation > li > a {
+    font-size: 19px;
+    text-transform: capitalize;
+    padding: 0 2px;
+}
+}

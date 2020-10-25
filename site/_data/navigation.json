@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "Posts",
+      "url": "/posts",
+      "external": false
+    },
+    {
+      "text": "Projects",
+      "url": "/projects",
+      "external": false
+    },
+    {
+      "text": "Bio",
+      "url": "/about",
+      "external": false
+    },
+    {
+      "text": "Now",
+      "url": "/now",
+      "external": false
+    },
+    {
+      "text": "Contact",
+      "url": "/#contactme",
+      "external": false
+    }
+  ]
+}

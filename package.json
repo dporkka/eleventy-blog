@@ -1,0 +1,43 @@
+{
+  "name": "supermaya",
+  "version": "1.0.0",
+  "description": "An Eleventy starter-kit designed to help you add rich features to a blog or website without the need for a complicated build process.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=11.0.0"
+  },
+  "scripts": {
+    "start": "cross-env ELEVENTY_ENV=development npx eleventy clean && eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "keywords": [],
+  "author": "David Porkka",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.6",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@aws-amplify/cli": "^4.29.1",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.11.0",
+    "@tbranyen/jsdom": "^13.0.0",
+    "babel-loader": "^8.1.0",
+    "clean-css": "^4.2.3",
+    "core-js": "^3.6.5",
+    "critical": "^2.0.0-23",
+    "cross-env": "^7.0.2",
+    "css.escape": "^1.5.1",
+    "dotenv": "^8.2.0",
+    "elliptic": "^6.5.3",
+    "html-minifier": "^4.0.0",
+    "lozad": "^1.14.0",
+    "memfs": "^3.1.2",
+    "node": "^10.16.0",
+    "node-sass": "^4.14.1",
+    "slugify": "^1.4.0",
+    "snarkdown": "^1.2.2",
+    "svg-inline-loader": "^0.8.2",
+    "terser-webpack-plugin": "^3.0.0",
+    "webpack": "^4.43.0"
+  }
+}

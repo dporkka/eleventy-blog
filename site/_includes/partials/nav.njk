@@ -1,0 +1,35 @@
+{% set navLandmark = 'nav' if navLocation === 'primary' else 
+  'div' %}
+
+{% if navigation.items %}
+  <{{navLandmark}}>
+    <ul class="l-navigation navigation" aria-label="{{ ariaNavLabel }}">
+      {% for item in navigation.items %}
+        {% set externalAttribute = '' %}
+        {% set currentAttribute = '' %}
+
+        {% if item.external %}
+          {% set externalAttribute = ' rel="external"' %}
+        {% endif %}
+
+        {% if page.url == item.url %}
+          {% set currentAttribute = ' aria-current="page"' %}
+        {% endif %}
+
+        <li>
+          <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
+            {{ item.text }}
+          </a>
+        </li>
+      {% endfor %}
+
+      {% if site.keystone.login and navLocation === 'primary' %}
+        <li>
+          <a href="/login" class="l-login" id="keystone-nav-login">
+          Login{% include "partials/icons/login.svg" %}
+          </a>
+        </li>
+        {% endif%}
+      </ul >
+    </{{navLandmark}}>
+  {% endif %}

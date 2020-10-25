@@ -1,0 +1,126 @@
+.l-page {
+  overflow-x: hidden;
+}
+.welcome{
+  text-align: center;
+  font-size: 53px;
+}
+.intro-div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 447px;
+  position: relative;
+  padding-right: 40px;
+  top: -37px;
+}
+.david-beach {
+  border-radius: 50%;
+}
+.main-h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 93%;
+  font-weight: 400;
+  position: relative;
+  z-index: 2;
+  top: 45px;
+  padding-bottom: 15px;
+}
+.img-container {
+ position: relative;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 824px;
+  max-width: 95%;
+}
+@media(max-width: 800px){
+  .flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 17px;
+    width: 824px;
+    max-width: 95%;
+}
+  .intro-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 22px !important;
+   
+  }
+  .welcome{
+    text-align: center;
+    position: relative;
+    top: -25px;
+    font-size: 35px;
+    z-index: 3;
+  }
+  .main-h2 {
+    font-size: 19px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 310px;
+    font-weight: 400;
+    position: relative;
+    width: 396px;
+    z-index: 2;
+    top: -9px;
+    left: -10px;
+    margin-bottom: -22px;
+}
+.david-beach {
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  left: 5px;
+  margin-bottom: 32px;
+  margin-top: 0px;
+  width: 275px;
+  height: 275px;
+}
+}
+@media(max-width: 400px){
+  .david-beach {
+    border-radius: 50%;
+    position: relative;
+    top: -12px;
+    left: 5px;
+    margin-bottom: 32px;
+    margin-top: 0px;
+    width: 275px;
+    height: 275px;
+  }
+  .welcome{
+    text-align: center;
+    position: relative;
+    top: -30px;
+    width: 320px;
+    font-size: 35px;
+    z-index: 3;
+  }
+}
+  @media(max-width: 350px){
+    .welcome{
+      text-align: center;
+      position: relative;
+      top: -30px;
+      left: -18px;
+      width: 320px;
+      font-size: 35px;
+      z-index: 3;
+  }
+}

@@ -1,0 +1,371 @@
+$l-stack-bp: 600px;
+@media (min-width: $l-stack-bp) {
+  .l-post-stack {
+    --l-stack-flex-basis: calc(50% - #{$BASE_UNIT / 2});
+  }
+}
+.intro-two {
+  margin: auto;
+  width: max-content;
+  position: relative;
+  top: 25px;
+}
+.h2-hire {
+  margin-top: 15px;
+}
+.hire-me {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 7px;
+  border-radius: 4px;
+  margin-right: 24px;
+  font-size: 24px;
+}
+.hire-me:hover {
+  border: 2px solid black;
+  margin-right: 22px;
+}
+.say-hello {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+.say-hello:hover {
+  border: 2px solid black;
+  margin-left: -2px;
+}
+
+.l-post-stack {
+    margin-top: 0;
+    width: 856px;
+    max-width: 90%;
+    flex-wrap: wrap;
+}
+.post-grid {
+    display: grid;
+    grid-template-columns: 430px 350px;
+    grid-row-gap: 10px;
+    width: 1100px;
+    max-width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 34px;
+    margin-bottom: 45px;
+}
+
+.l-post-stack > * {
+  margin-top: 3rem;
+  flex-basis: var(--l-stack-flex-basis, 100%);
+  flex-shrink: 0;
+}
+
+.post-stack-item {
+  list-style: none;
+  margin: 0px 0 0px;
+  position: relative;
+  top: 25px;
+}
+
+.post-stack-item * + * {
+  margin-top: -0.25rem;
+}
+.see-posts {
+  padding: 6px 11px;
+  background: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 14px 5px 6px 43px;
+  font-weight: 400;
+  position: relative;
+  bottom: 2px;
+  background: #f6f8fb;
+}
+.see-posts:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  color: black;
+  position: relative;
+  right: 1px;
+}
+/*------- Projects Section --------*/
+
+.projects-section {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  max-width: 95%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  column-gap: 30px;
+}
+.projects-section-inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+.projects-section-index {
+  background: #c9f3e0;
+  padding-top: 15px;
+  padding-bottom: 29px;
+  margin-bottom: -25px;
+}
+.projects-section-index > p {
+  font-size: 19px;
+  width: 500px;
+  max-width: 90%;
+  margin-top: 6px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.project1 {
+  margin-left: 0px;
+}
+.project2 {
+  margin-left: 0px;
+}
+.project3 {
+  margin-left: 0px;
+}
+.projectsBtn {
+  padding: 6px 11px;
+  background: white;
+  border-radius: 4px;
+  font-size: 17px;
+  border: 1px solid black;
+  margin-left: 0px;
+}
+.seeProjects {
+    border-bottom: none !important;
+}
+.projectsBtn:hover {
+  border: 1px solid #006ce5;
+  cursor: pointer;
+  color: #006ce5;
+}
+.latest-posts {
+  font-size: 32px;
+}
+.topic-btn {
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 19px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-weight: 400;
+}
+.topic-btn:hover {
+  background-color: rgb(244, 244, 244);
+}
+.topics-h2 {
+  margin-bottom: 26px;
+  // margin-top: 30px;
+  text-align: left;
+  font-size: 32px;
+}
+.topics {
+  position: relative;
+  bottom: 15px;
+}
+.topics2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  max-width: 90%;
+}
+.main-projects {
+  position: relative;
+  top: 20px;
+  width: max-content;
+  margin-right: auto;
+  max-width: 100%;
+}
+.p-under {
+  padding: 5px 0 10px 0;
+  color: #4e4e4e;
+  width: 350px;
+  max-width: 95%;
+}
+.main-current-projects {
+  font-size: 32px;
+}
+.projects-main {
+  position: relative;
+  top: 15px;
+}
+
+/*------ Contact Section -------*/
+
+a.email-main {
+  font-size: 18px !important;
+}
+p.mail-text {
+  color: #4e4e4e;
+}
+.mail-text > a {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4e4e4e;
+  padding: 0;
+}
+.contact-section2 {
+position: relative;
+    top: 19px;
+}
+.contact-section {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100vw;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  position: relative;
+  background: #c9f3e0;
+  padding-top: 23px;
+  padding-bottom: 26px;
+  top: 23px;
+}
+
+.post-stack-date {
+  font-size: 17px;
+  font-style: italic;
+  color: #333;
+  text-align: center;
+}
+@media(max-width: 800px){
+  .l-post-stack{
+  max-width: 90%;
+  margin-right: auto;
+}
+.h2-hire {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.specialties {
+  font-weight: 700;
+  font-size: 22px;
+}
+.hire-me {
+  font-size: 19px;
+}
+.say-hello {
+  font-size: 19px;
+}
+.post-grid {
+  display: grid;
+  grid-template-columns: 400px 300px;
+  width: 750px;
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 34px;
+  margin-bottom: 45px;
+}
+.intro-two {
+  margin: auto;
+  width: max-content;
+  position: relative;
+  top: 0px;
+}
+.projects-section {
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  max-width: 95%;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  column-gap: 30px;
+}
+.projects-section-inner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 12px;
+  padding-bottom: 27px;
+  max-width: 90%;
+}
+.mail-text > a {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #4e4e4e;
+  padding: 0;
+}
+.contact-section {
+  text-align: center;
+  margin-left: 0;
+  margin-top: 5px;
+  margin-bottom: -39px;
+  position: relative;
+  background: #c9f3e0;
+  padding-top: 15px;
+  padding-bottom: 17px;
+  top: 11px;
+}
+}
+@media(max-width: 500px){
+  .post-grid {
+    display: grid;
+    grid-template-columns: 300px;
+    width: 300px;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 34px;
+    margin-bottom: 30px;
+  }.projects-section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .desktopDiv {
+    display: none;
+  }
+  .topics-h2 {
+    margin-top: 20px;
+    margin-bottom: 26px;
+    text-align: left;
+    font-size: 32px;
+}
+#main-content > div > div.l-stack.l-stack--large > section > div > div > div.topics-section > h2:nth-child(2) > div > a.gray-link.topic-btn {
+  position: relative;
+  top: 5px;
+}
+
+.latest-posts {
+    font-size: 30px;
+}
+.see-posts {
+  margin: 14px 5px 6px 10px;
+  position: relative;
+  bottom: 2px;
+}
+}
+@media (max-width: 370px){
+  .tools2 {
+    position: relative;
+    top: 6px;
+  }
+}
+

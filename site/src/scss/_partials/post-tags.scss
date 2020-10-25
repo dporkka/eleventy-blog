@@ -1,0 +1,30 @@
+.l-post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.l-post-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 17px;
+  border-radius: 24px;
+  background: #FFC300;
+  border: solid 1px #ccc;
+  text-decoration: none;
+  margin-right: 5px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.post-tag:hover,
+.post-tag:focus {
+  text-decoration: underline;
+  background: #fff;
+}

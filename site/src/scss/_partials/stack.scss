@@ -1,0 +1,214 @@
+
+/*----- subscribe form -----*/
+  #mce-FNAME {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 16px 18px;
+    width: 300px!important;
+    max-width: 90%;
+    height: 34px;
+    cursor: auto;
+    background-position: 98% 50%;
+    font-size: 18px;
+    border-radius: 4px;
+}
+#mce-EMAIL {
+  display: block;
+  width: 300px!important;
+  max-width: 90%;
+  height: 34px;
+  margin-bottom: 17px;
+  text-indent: 2%;
+  font-size: 18px;
+  border-radius: 4px;
+}
+.new-content {
+  color:  #4e4e4e;
+  position: relative;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  padding-top: 3px;
+}
+.email-section {
+  width:350px;
+  max-width: 90%;
+}
+#mc_embed_signup_scroll > div > label {
+  font-size: 17px;
+  color: #4e4e4e;
+}
+#mc-embedded-subscribe {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2px 12px;
+    border-radius: 4px !important;
+    line-height: 1.5;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#mc-embedded-subscribe:hover {
+  background-color: #f4f4f4;
+}
+.button {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2px 12px;
+  border-radius: 4px !important;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#mc_embed_signup .indicates-required {
+  text-align: right;
+  font-size: 11px;
+  display: none;
+  margin-right: 4%;
+}
+.l-stack {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
+  max-width: 100%;
+}
+
+.l-stack > * + * {
+  margin-top: 10px;
+}
+
+.l-stack--large > * + * {
+  margin-top: 1rem;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100vw;
+}
+
+.l-stack .l-measure {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.l-stack > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 675px;
+  max-width: 100%;
+  padding-top: 0;
+}
+.tools-section {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 675px;
+}
+
+.projects-section h2 {
+  color: #216ec4;
+  text-decoration: none;
+  max-width: max-content;
+}
+
+.projects-section h2, h3, h4, p {
+  padding: 15px 0 4px 0;
+}
+.current-projects{
+  display: block;
+  border-left: 5px solid green;
+  padding-left: 6px !important;
+  padding-top: 5px !important;
+  color: black !important;
+  border-bottom: none !important;
+  margin: 23px 0 10px;
+}
+.on-hold-projects {
+  display: block;
+  margin: 23px 0 10px;
+  border-left: 5px solid orange;
+  padding-left: 6px !important;
+  padding-top: 5px !important;
+  color: black !important;
+  border-bottom: none !important;
+}
+.about-section-two {
+  margin-right: auto;
+  margin-left: auto;
+  width: 675px;
+}
+.about-section-two > h2, h3, h4, p {
+  padding: 10px 0 0px 0;
+}
+
+.genome {
+}
+.now-section {
+  margin-right: auto;
+  margin-left: auto;
+  width: 675px;
+  max-width: 90%;
+}
+.p-section {
+  width: max-content;
+  font-size: 23px;
+  margin-bottom: -5px;
+}
+.now-section > h2, h3, h4, p {
+  padding: 10px 0 0 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.now-archive {
+  margin-bottom: 7px;
+}
+.now-updated {
+  text-align: center;
+  padding-top: 15px;
+}
+.hire-wrapper {
+  width: 600px;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media(max-width: 800px){
+  .l-stack .l-measure {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    text-align: left;
+    max-width: 90%;
+}
+#mc-embedded-subscribe {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 2px 12px;
+  border-radius: 4px !important;
+  line-height: 1.5;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+#mc-embedded-subscribe:hover {
+background-color: #f4f4f4;
+}
+.button {
+display: inline-block;
+font-size: 1rem;
+padding: 2px 12px;
+border-radius: 4px !important;
+line-height: 1.5;
+background-color: #fff;
+border: 1px solid #ccc;
+}
+
+.now-section {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%
+}
+.about-section-two {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+}
+}

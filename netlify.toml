@@ -1,0 +1,25 @@
+[build]
+  environment = { NODE_VERSION = "12.0.0" }
+  command = "npm run build"
+  publish = "dist"
+[template.environment]
+  KEYSTONE_API = "KeyStone URL here"
+
+[build.processing]
+  skip_processing = false
+[build.processing.css]
+  bundle = true
+  minify = true
+[build.processing.js]
+  bundle = true
+  minify = true
+[build.processing.html]
+  pretty_urls = true
+[build.processing.images]
+  compress = true
+
+[[redirects]]
+  from = "http://davidporkka.com/*"
+  to = "https://www.davidporkka.com/:splat"
+  status = 301
+  force = true

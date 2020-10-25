@@ -1,0 +1,79 @@
+{# Intro content #}
+{% set introHeading = title %}
+{% set footerSummary = site.footerSummary %}
+{% set metaDescription = description if description else 
+  site.shortDesc %}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml"/>
+    
+    {% if site.theme %}
+    <style>
+      :root {
+        {% if site.theme.secondary.background %}
+          --THEME_BACKGROUND: {{site.theme.primary.background}};
+        {% endif %}
+        {% if site.theme.primary.text %}
+          --THEME_COLOR: {{site.theme.primary.text}};
+        {% endif %}
+        {% if site.theme.primary.highlight %}
+          --THEME_HIGHLIGHT: {{site.theme.primary.highlight}};
+        {% endif %}
+      }
+
+      .theme-secondary {
+        {% if site.theme.secondary.background %}
+          --THEME_BACKGROUND: {{site.theme.secondary.background}};
+        {% endif %}
+        {% if site.theme.secondary.text %}
+          --THEME_COLOR: {{site.theme.secondary.text}};
+        {% endif %}
+        {% if site.theme.secondary.highlight %}
+          --THEME_HIGHLIGHT: {{site.theme.secondary.highlight}};
+        {% endif %}
+      }
+    </style>
+    {% endif %}
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    {% if extra_css %}
+      {% for item in extra_css %}
+        <link rel="stylesheet" href="{{item}}">
+      {% endfor %}
+    {% endif %}
+
+    {% include "partials/services/keystone-login-styles.njk" %}
+
+    {% include "partials/global/meta-info.njk" %}
+    {% block head %}{% endblock %}
+
+  </head>
+  <body>
+    <a class="visually-hidden skip-content" href="#main-content">Skip to content</a>
+    <div class="l-page">
+      {% include "partials/global/site-head.njk" %}
+      <main id="main-content" tabindex="-1">
+        <div class="l-stack l-stack--large">
+          {% block content %}{% endblock content %}
+          {% block foot %}
+            {% include "partials/global/site-foot.njk" %}
+          {% endblock %}
+        </div>
+      </main>
+    </div>
+    <script type="text/javascript" src="/js/service-worker.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+    {% include "partials/services/keystone-login-scripts.njk" %}
+    {% if extra_js %}
+      {% for item in extra_js %}
+        <script type="text/javascript" src="{{item}}"></script>
+      {% endfor %}
+    {% endif %}
+  </body>
+</html>

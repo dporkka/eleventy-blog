@@ -1,0 +1,38 @@
+--- 
+title: Posts 
+pagination: 
+  data: collections.posts
+  size: 10
+  alias: posts 
+layout: "layouts/page.njk"
+---
+
+{# {% extends 'layouts/page.njk' %} #}
+
+    <div class="topics-section2">
+      <div class="topics2">
+        <a href="/tags/design" class="yellow-link topic-btn">Design</a>
+        <a href="/tags/fiction" class="orange-link topic-btn">Fiction</a>
+        <a href="/tags/lessons" class="yellow-link topic-btn">Lessons</a>
+        <a href="/tags/tools" class="gray-link topic-btn tools2">Tools</a>
+      </div>
+      <div>
+{# Post list content #}
+{% set introHeading %}Posts{% endset %}
+{% set postListItems = posts %}
+
+{% if postListItems.length < collections.posts.length %}
+  {% set paginationNextText = 'Next' %}
+  {% set paginationNextUrl = pagination.nextPageHref %}
+  {% set paginationPrevUrl = pagination.previousPageHref %}
+{% endif %}
+
+
+{% block content %}
+
+  <div class="l-stack l-stack--large l-stack--large">
+    {# {% include "partials/intro.njk" %} #}
+    {% include "partials/post-list.njk" %}
+    {% include "partials/pagination.njk" %}
+  </div>
+{% endblock %}

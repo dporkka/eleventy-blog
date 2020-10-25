@@ -1,0 +1,98 @@
+{% set postListHeadingLevel = 'h3' if postListHeading else 'h2' %}
+
+{% if postListItems.length %}
+  <section class="l-container">
+    <div class="l-stack">
+      <div class="post-grid">
+      <div class="post-section">
+      {% if postListHeading %}
+       <h2 class="latest-posts">{{ postListHeading }} <a class="see-posts" href="/posts/">View All</a></h2>
+       {# <a href="/posts/"><button class="see-posts">See All Posts</button></a> #}
+      {% endif %}
+      
+  
+      <ul class="l-post-stack" reversed>
+        {% for item in postListItems %}
+          <li class="post-stack-item">
+            <{{postListHeadingLevel}} class="h4">
+              <a href="{{ item.url }}" rel="bookmark">{{ item.data.title }}</a>
+            </{{postListHeadingLevel}}>
+            <p>
+              <time class="post-stack-date" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+            </p>
+            {% if item.data.description %}
+              <p>{{item.data.description}}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+         <br>
+    </div>
+
+    <div class="topics-section">
+      <h2 class="topics-h2 h2-header"><strong>Topics</strong><h2>
+      <div class="topics">
+        <a href="/tags/design" class="yellow-link topic-btn">Design</a>
+        <a href="/tags/fiction" class="orange-link topic-btn">Fiction</a>
+        <a href="/tags/lessons" class="yellow-link topic-btn">Lessons</a>
+        <a href="/tags/tools" class="gray-link topic-btn">Tools</a>
+      </div>
+      <div>
+    <br>
+
+    <div class="email-section">
+      <div id="mc_embed_signup">
+        <form action="https://davidporkka.us2.list-manage.com/subscribe/post?u=743981b4b854ce8ad0b6db201&amp;id=568013108f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <h2 class="h2-header">Be Notified</h2>
+          <p class="new-content">About new content and discoveries</p>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group">
+          <label for="mce-FNAME">First Name </label>
+          <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+        </label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_743981b4b854ce8ad0b6db201_568013108f" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </div>
+        </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="main-projects">
+  <h2 class="main-current-projects h2-header"><strong>Projects</strong><a class="see-posts" href="/projects/">View All</a><h2>
+    <div class="projects-main">
+      <a class="n-lango" href="https://www.nulango.com">Nulango</a>
+      <p class="p-under">Web app that helps people quickly learn a langauge</p>
+       <a class="o-chem" href="https://www.ochemshop.com">O-Chem Shop</a>
+      <p class="p-under">Organic chemistry tools and resources</p>
+      </div>
+      <br>
+</div>
+    <div>
+    <div class="contact-section2">
+     <h2 id="contactme" class=h2-header><strong>Say Hello</strong></h2>
+      <p class="mail-text">Email me at <a class="email-main" href="mailto:davidporkka@gmail.com">davidporkka@gmail.com</a> or reach me at the places below.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+    <br>
+
+</div>
+
+
+
+   {% endif %}
+  </section>

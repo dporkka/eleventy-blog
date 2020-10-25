@@ -1,0 +1,34 @@
+$bp-site-head: 600px;
+
+.l-site-head {
+  --site-head-flex-basis: 100%;
+  --site-head-margin-top: 1rem;
+}
+
+@media (min-width: $bp-site-head) {
+  .l-site-head > * {
+    --site-head-flex-basis: 0;
+    --site-head-margin-top: 0;
+  }
+}
+
+.l-site-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin: 4px 0 0px 0;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  width: 827px;
+  max-width: 95%;
+}
+
+.l-site-head > * {
+  flex-basis: var(--site-head-flex-basis);
+}
+
+.l-site-head > * + * {
+  margin-top: var(--site-head-margin-top);
+}

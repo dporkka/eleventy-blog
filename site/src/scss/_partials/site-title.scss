@@ -1,0 +1,23 @@
+.l-site-title {
+  flex-basis: 100%;
+}
+.site-title {
+  font-size: 32px;
+  width: 200px;
+  display: inline-block;
+  line-height: 1.625rem;
+  font-family: montserrat, serif, verdana;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 700;
+}
+@media(max-width: 800px){
+.site-title {
+  font-size: 28px;
+  width: 12rem;
+  display: inline-block;
+  line-height: 1.625rem;
+  font-family: montserrat, serif, verdana;
+  text-align: center;
+  margin: 0;
+}}
