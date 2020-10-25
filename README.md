@@ -1,5 +1,5 @@
 <div align="center">
-    <h2>Supermaya</h2>
+    <h2>This Eleventy Blog template is based on the <a href="https://supermaya-demo.netlify.com/">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h2>
     <br>
     <p>Supermaya is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
     <br><img src="site/static/screenshot.png" width="500"/>
