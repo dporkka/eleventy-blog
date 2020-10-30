@@ -1,9 +1,8 @@
 <div align="center">
-<<<<<<< HEAD
     <h2>Superdapo</h2>
 =======
     <h2>This Eleventy Blog template is based on the <a href="https://supermaya-demo.netlify.com/">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h2>
->>>>>>> 5649e62651223dd945419a13fd57ff40a2e22ee7
+
     <br>
     <img src="site/static/superdapo-screenshot.png" width="800">
      <img src="site/static/superdapo-mobile.png" width="350">
@@ -21,6 +20,7 @@
     </ul>
     <p>After cloning, to start editing your site, run ```yarn eleventy --serve``` to start your development server. Then open up http://localhost:8080</p>
     <p>After adding your own content to this site, remove the robots.txt file to allow search engines to index your site.</p>
+    <p>To add comments, follow the Supermaya instructions below and then connect Netlify to your copy of the Superdapo repository.</p> 
     <p><strong>The rest of this ReadMe is from the <a href="https://github.com/MadeByMike/supermaya/blob/master/README.md">SuperMaya Readme</a><strong></p>
     <p>Supermaya was designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
     <br><img src="site/static/supermaya-screenshot.png" width="500"/>
