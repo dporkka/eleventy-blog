@@ -1,7 +1,24 @@
 <div align="center">
-    <h2>Supermaya</h2>
+    <h2>Superdapo</h2>
     <br>
-    <p>Supermaya is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
+    <img src="superdapo-screenshot.png" width="800">
+     <img src="superdapo-mobile.png" width="350">
+    <p>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the Supermaya template by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></p>
+    <div>
+    <p>Some differences between this template and the Supermaya template, include: 
+    <ul>
+        <li>Full-screen page designs</li>
+        <li>Different header, footer, home page, and page title designs</li>
+        <li>Different mobile and tablet designs</li>
+        <li>Additional common pages</li>
+        <li>Social icons</li>
+        <li>Used the Yarn package manager and not NPM (node package manager)</li>
+        <li>Security headers added in the .toml</li>
+    </ul>
+    <p>After cloning, to start editing your site, run ```yarn eleventy --serve``` to start your development server. Then open up http://localhost:8080</p>
+    <p>After adding your own content to this site, remove the robots.txt file to allow search engines to index your site.</p>
+    <p><strong>The rest of this ReadMe is from the SuperMaya Readme<strong></p>
+    <p>Supermaya was designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
     <br><img src="site/static/screenshot.png" width="500"/>
     <br>
     <p>See a <a href="https://supermaya-demo.netlify.com/">Live Demo</a>.</p>
@@ -144,4 +161,6 @@ I need to acknowledge and credit the work of [Phil Hawksworth](https://twitter.c
 
 ## Why "Supermaya"
 
-A friend and designer Matt Barron, helped me out with some initial design work and used it as a placeholder for the site name in early mock-ups. As usual development names grow on you. I later learned it was the name of his family dog. It's combination of Superman and Maya, one of his kids favorite cartoon characters. That settles it, right?
+A friend and designer Matt Barron, helped me out with some initial design work and used it as a placeholder for the site name in early mock-ups. As usual development names grow on you. I later learned it was the name of his family dog. It's combination of Superman and Maya, one of his kids favourite cartoon characters. That settles it, right? And here's a picture:
+
+<img src="site/static/supermaya.jpg" width="400"/>
