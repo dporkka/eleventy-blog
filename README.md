@@ -1,26 +1,16 @@
-<<<<<<< HEAD
-
-    <h2>Superdapo</h2>
+<h2>Superdapo</h2>
  <br>
+ <p>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the <a href="https://github.com/MadeByMike/supermaya">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></p><br>
  <h3><stong>Superdapo desktop view</strong><h3>
     <img src="site/static/superdapo-screenshot.png" width="800"/>
     <br>
       <h3><stong>Supermaya desktop view</strong><h3>
-    <br><img src="site/static/supermaya-screenshot.png" width="500"/>
-=======
-<div align="center">
-    <h2>Superdapo</h2>
-=======
-    <h2>This Eleventy Blog template is based on the <a href="https://supermaya-demo.netlify.com/">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h2>
-
->>>>>>> 8dc71eefebb4c839de4f0ace8a7527906d8eb755
+    <br><img src="site/static/supermaya-screenshot.png" width="800"/>
     <br>
     <h3><stong>Supermaya mobile view</strong><h3>
      <img src="site/static/superdapo-mobile.png" width="350"/>
      <br>
-    <p>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the <a href="https://github.com/MadeByMike/supermaya">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></p>
-    <div>
-    <p>Some differences between this template and the Supermaya template, include: 
+    <p>Some differences between this template and the Supermaya template, include:</p>
     <ul>
         <li>Full-screen page designs</li>
         <li>Different header, footer, home page, and page title designs</li>
@@ -41,8 +31,6 @@
     <p><a href="https://heroku.com/deploy?template=https://github.com/keystonejs/keystone-jamstack-plus">Deploy Supermaya with Keystone</a> to allow user generated content. <br>(following instructions during installation to connect the API).</p>
     <br>
     <br>
-    
-</div>
     
 It comes with all the blog standard features:
 
