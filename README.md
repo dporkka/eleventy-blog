@@ -1,5 +1,9 @@
 <div align="center">
+<<<<<<< HEAD
     <h2>Superdapo</h2>
+=======
+    <h2>This Eleventy Blog template is based on the <a href="https://supermaya-demo.netlify.com/">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h2>
+>>>>>>> 5649e62651223dd945419a13fd57ff40a2e22ee7
     <br>
     <img src="superdapo-screenshot.png" width="800">
      <img src="superdapo-mobile.png" width="350">
