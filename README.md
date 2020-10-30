@@ -1,12 +1,15 @@
-<div align="center">
-<<<<<<< HEAD
+
     <h2>Superdapo</h2>
-=======
-    <h2>This Eleventy Blog template is based on the <a href="https://supermaya-demo.netlify.com/">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h2>
->>>>>>> 5649e62651223dd945419a13fd57ff40a2e22ee7
+ <br>
+ <h3><stong>Superdapo desktop view</strong><h3>
+    <img src="site/static/superdapo-screenshot.png" width="800"/>
     <br>
-    <img src="site/static/superdapo-screenshot.png" width="800">
-     <img src="site/static/superdapo-mobile.png" width="350">
+      <h3><stong>Supermaya desktop view</strong><h3>
+    <br><img src="site/static/supermaya-screenshot.png" width="500"/>
+    <br>
+    <h3><stong>Supermaya mobile view</strong><h3>
+     <img src="site/static/superdapo-mobile.png" width="350"/>
+     <br>
     <p>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the <a href="https://github.com/MadeByMike/supermaya">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></p>
     <div>
     <p>Some differences between this template and the Supermaya template, include: 
@@ -23,7 +26,6 @@
     <p>After adding your own content to this site, remove the robots.txt file to allow search engines to index your site.</p>
     <p><strong>The rest of this ReadMe is from the <a href="https://github.com/MadeByMike/supermaya/blob/master/README.md">SuperMaya Readme</a><strong></p>
     <p>Supermaya was designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
-    <br><img src="site/static/supermaya-screenshot.png" width="500"/>
     <br>
     <p>See a <a href="https://supermaya-demo.netlify.com/">Live Demo</a>.</p>
     <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/MadeByMike/supermaya">Deploy Supermaya on it's own</a></p>
