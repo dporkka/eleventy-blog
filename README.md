@@ -1,6 +1,7 @@
 <h2>Superdapo</h2>
  <br>
- <p>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the <a href="https://github.com/MadeByMike/supermaya">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></p><br>
+ <h3>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the <a href="https://github.com/MadeByMike/supermaya">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h3><br>
+ <p>See a live demo of this template <a href="https://superdapo.netlify.app/">here</a></p>
  <h3><stong>Superdapo desktop view</strong><h3>
     <img src="site/static/superdapo-screenshot.png" width="800"/>
     <br>
