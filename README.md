@@ -7,7 +7,7 @@
       <h3><stong>Supermaya desktop view</strong><h3>
     <br><img src="site/static/supermaya-screenshot.png" width="800"/>
     <br>
-    <h3><stong>Supermaya mobile view</strong><h3>
+    <h3><stong>Superdapo mobile view</strong><h3>
      <img src="site/static/superdapo-mobile.png" width="350"/>
      <br>
     <p>Some differences between this template and the Supermaya template, include:</p>
@@ -20,7 +20,7 @@
         <li>Used the Yarn package manager and not NPM (node package manager)</li>
         <li>Security headers added in the .toml</li>
     </ul>
-    <p>After cloning, to start editing your site, run ```yarn eleventy --serve``` to start your development server. Then open up http://localhost:8080</p>
+    <p>After cloning, to start editing your site, run "yarn eleventy --serve" to start your development server. Then open up http://localhost:8080</p>
     <p>After adding your own content to this site, remove the robots.txt file to allow search engines to index your site.</p>
     <p>To add comments, follow the Supermaya instructions below and then connect Netlify to your copy of the Superdapo repository.</p> 
     <p><strong>The rest of this ReadMe is from the <a href="https://github.com/MadeByMike/supermaya/blob/master/README.md">SuperMaya Readme</a><strong></p>
@@ -166,4 +166,4 @@ I need to acknowledge and credit the work of [Phil Hawksworth](https://twitter.c
 
 A friend and designer Matt Barron, helped me out with some initial design work and used it as a placeholder for the site name in early mock-ups. As usual development names grow on you. I later learned it was the name of his family dog. It's combination of Superman and Maya, one of his kids favourite cartoon characters. That settles it, right? And here's a picture:
 
-<img src="site/static/supermaya.jpg" width="400"/>
+<img src="site/static/supermaya.jpg" width="400" alt="picture of Matt's dog, Maya"/>

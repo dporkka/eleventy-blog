@@ -66,7 +66,7 @@ comments: true
 <h3 id="-graphite-49-midi-http-www-samsontech-com-samson-products-usb-midi-keyboard-controllers-graphite49-"><a href="http://www.samsontech.com/samson/products/usb-midi/keyboard-controllers/graphite49/">Graphite 49 MIDI</a></h3>
 <p>Basic digital piano that has everything I need to interface with a music program like Logic or GarageBand. I plan to upgrade soon to something bigger with better touch response.</p>
 <h2 id="-reading-"><strong>Reading</strong></h2>
-<h3 id="-kindle-https-www-amazon-com-kindle-now-with-built-in-front-light-dp-b07978j597-"><a href="https://www.amazon.com/Kindle-Now-with-Built-in-Front-Light/dp/B07978J597">Kindle</a></h3>
+<h3 id="-kindle-https-www-amazon-com-kindle--with-built-in-front-light-dp-b07978j597-"><a href="https://www.amazon.com/Kindle-Now-with-Built-in-Front-Light/dp/B07978J597">Kindle</a></h3>
 <p>This is what I read most of my books on. Love how easy it is to take notes, and it doesn&#39;t blast my eyes with blue light at night, which helps me sleep better.</p>
 <h2 id="-sleep-tech-"><strong>Sleep Tech</strong></h2>
 <h3 id="-orange-uvex-blue-light-blocking-goggles-https-www-amazon-com-uvex-blocking-computer-sct-orange-s1933x-dp-b000usrg90-text-uvex-20skyper-20blue-20light-20blocking-20computer-20glasses-20feature-20an-20orange-inhibit-20vision-20problems-20like-20cataracts-"><a href="https://www.amazon.com/Uvex-Blocking-Computer-SCT-Orange-S1933X/dp/B000USRG90#:~:text=Uvex%20Skyper%20Blue%20Light%20Blocking%20Computer%20Glasses%20feature%20an%20orange,inhibit%20vision%20problems%20like%20cataracts.">Orange UVEX blue-light blocking goggles</a></h3>
