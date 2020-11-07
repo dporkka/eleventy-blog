@@ -1,6 +1,6 @@
 [build]
   environment = { NODE_VERSION = "12.0.0" }
-  command = "yarn build"
+  command = "npm run build"
   publish = "dist"
 [template.environment]
   KEYSTONE_API = "https://keystone-comments.herokuapp.com/admin/api"
