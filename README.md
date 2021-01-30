@@ -24,7 +24,7 @@
     <p>After cloning, to start editing your site, run "yarn eleventy --serve" to start your development server. Then open up http://localhost:8080</p>
     <p>After adding your own content to this site, remove the robots.txt file to allow search engines to index your site.</p>
     <p>To add comments, follow the Supermaya instructions below and then connect Netlify to your copy of the Superdapo repository.</p> 
-    <p><strong>The rest of this ReadMe is from the <a href="https://github.com/MadeByMike/supermaya/blob/master/README.md">SuperMaya Readme</a><strong></p>
+    <p><strong>The rest of this ReadMe is from the <a href="https://github.com/MadeByMike/supermaya/blob/master/README.md">SuperMaya Readme</a></strong></p>
     <p>Supermaya was designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
     <br>
     <p>See a <a href="https://supermaya-demo.netlify.com/">Live Demo</a>.</p>
