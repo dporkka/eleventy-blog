@@ -1,7 +1,46 @@
-$l-stack-bp: 600px;
-@media (min-width: $l-stack-bp) {
+
+.nulango-projects {
+  font-size: 27px; 
+  font-weight: 700;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
+}
+@media (min-width: 800px) {
   .l-post-stack {
     --l-stack-flex-basis: calc(50% - #{$BASE_UNIT / 2});
+  }
+  .main-projects {
+    position: relative;
+    bottom: 1px;
+    width: max-content;
+    padding: 15px 0 0 15px;
+    margin-right: auto;
+    border: 2px solid #d3d3d3;
+    border-radius: 4px;
+    width: 407px;
+  }
+  
+  .post-section {
+    border: 2px solid #d3d3d3;
+    padding: 15px 0 0 0;
+    border-radius: 4px;
+    margin-bottom: 51px;
+    padding-left: 15px;
+    width: 407px;
+}
+  .post-grid {
+    display: grid;
+    grid-template-columns: 381px 350px;
+    grid-row-gap: 10px;
+    width: 1100px;
+    grid-column-gap: 99px;
+    max-width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+    position: relative;
+    top: 34px;
+    left: 57px;
+    margin-bottom: 0;
   }
 }
 .intro-two {
@@ -12,6 +51,19 @@ $l-stack-bp: 600px;
 }
 .h2-hire {
   margin-top: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+.hire-p {
+  font-size: 19px;
+  padding: 0px;
+}
+.specialties {
+  font-size: 27px;
+  text-decoration: none;
+}
+#heading-my-specialties-include\: > a > svg {
+  display: none;
 }
 .hire-me {
   text-decoration: none;
@@ -36,26 +88,12 @@ $l-stack-bp: 600px;
   border: 2px solid black;
   margin-left: -2px;
 }
-
 .l-post-stack {
-    margin-top: 0;
-    width: 856px;
-    max-width: 90%;
-    flex-wrap: wrap;
+  margin-top: 0;
+  width: 856px;
+  max-width: max-content;
+  flex-wrap: wrap;
 }
-.post-grid {
-    display: grid;
-    grid-template-columns: 430px 350px;
-    grid-row-gap: 10px;
-    width: 1100px;
-    max-width: max-content;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    top: 34px;
-    margin-bottom: 45px;
-}
-
 .l-post-stack > * {
   margin-top: 3rem;
   flex-basis: var(--l-stack-flex-basis, 100%);
@@ -66,7 +104,7 @@ $l-stack-bp: 600px;
   list-style: none;
   margin: 0px 0 0px;
   position: relative;
-  top: 25px;
+  top: 15px;
 }
 
 .post-stack-item * + * {
@@ -91,18 +129,105 @@ $l-stack-bp: 600px;
   position: relative;
   right: 1px;
 }
-/*------- Projects Section --------*/
-
-.projects-section {
+.tech-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 565px;
+  max-width: 95%;
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+}
+#tech-articles {
+  font-weight: 700;
+}
+.topic-btn {
+  border-radius: 9px;
+  padding: 3px 10px;
+  margin-right: 0px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  font-size: 19px;
+  text-decoration: none;
+  border: 2px solid gray;
+  background-color: #fff;
+  font-weight: 400;
+}
+#health-articles {
+  font-weight: 700;
+}
+.topics .topic-btn {
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin-right: -5px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  font-size: 19px;
+  text-decoration: none;
+  border: 2px solid gray;
+  background-color: #fff;
+  font-weight: 400;
+}
+.tech-posts {
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 562px;
+  max-width: 100%;
+  
+}
+
+.health-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  width: 565px;
   max-width: 95%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  column-gap: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.health-posts {
+  font-size: 20px;
+  padding-bottom: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 565px;
+  max-width: 100%;
+}
+
+.recent-posts {
+  margin: 37px 0px 0 0;
+  text-align: left;
+  margin-right: auto;
+  margin-left: -1px;
+  width: 565px !important;
+  font-family: -apple-system,'Segoe UI','Open Sans',Roboto,sans-serif;
+  max-width: 90%;
+  font-size: 27px;
+}
+.other-posts {
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: 0;
+  width: 565px;
+  max-width: 90%;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
+  font-size: 27px;
+}
+
+
+/*------- Projects Section --------*/
+  .projects-section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 630px;
+    max-width: 95%;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .projects-section-inner {
   margin-left: auto;
@@ -151,21 +276,16 @@ $l-stack-bp: 600px;
 .latest-posts {
   font-size: 32px;
 }
-.topic-btn {
-  border-radius: 4px;
-  padding: 4px 10px;
-  font-size: 19px;
-  text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #000;
-  font-weight: 400;
+
+.yellow-link.topics-btn {
+  position: relative;
+  top: 5px;
 }
 .topic-btn:hover {
   background-color: rgb(244, 244, 244);
 }
 .topics-h2 {
   margin-bottom: 26px;
-  // margin-top: 30px;
   text-align: left;
   font-size: 32px;
 }
@@ -173,25 +293,26 @@ $l-stack-bp: 600px;
   position: relative;
   bottom: 15px;
 }
+.topics-section2 {
+  margin-top: 22px;
+}
+.topics-section {
+  position: relative;
+  top: 15px;
+}
 .topics2 {
   position: relative;
+  top: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 560px;
-  max-width: 90%;
-}
-.main-projects {
-  position: relative;
-  top: 20px;
-  width: max-content;
-  margin-right: auto;
+  width: 565px;
   max-width: 100%;
 }
 .p-under {
   padding: 5px 0 10px 0;
   color: #4e4e4e;
-  width: 350px;
-  max-width: 95%;
+  width: 369px;
+  max-width: 95%
 }
 .main-current-projects {
   font-size: 32px;
@@ -220,7 +341,7 @@ p.mail-text {
 }
 .contact-section2 {
 position: relative;
-    top: 19px;
+    top: 30px;
 }
 .contact-section {
   text-align: center;
@@ -247,14 +368,48 @@ position: relative;
   max-width: 90%;
   margin-right: auto;
 }
+topics2 {
+position: relative;
+display: flex;
+top: -1px;
+column-gap: 5px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+overflow-x: scroll;
+max-width: 94%;
+}
+@media (min-width: 501px){
+.post-section {
+    border: 2px solid #d3d3d3;
+    padding: 15px 0 0 0;
+    border-radius: 4px;
+    margin-bottom: 26px;
+    padding-left: 15px;
+    width: 95%;
+}
+.topics-section2 {
+  margin-top: 20px;
+}
+.main-projects {
+  position: relative;
+  bottom: 1px;
+  width: max-content;
+  padding: 15px 0 0 15px;
+  margin-right: auto;
+  /* max-width: 100%; */
+  border: 2px solid #d3d3d3;
+  border-radius: 4px;
+  width: 407px;
+}
 .h2-hire {
   margin-top: 30px;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
 }
 .specialties {
-  font-weight: 700;
-  font-size: 22px;
+  font-size: 27px;
 }
 .hire-me {
   font-size: 19px;
@@ -262,17 +417,21 @@ position: relative;
 .say-hello {
   font-size: 19px;
 }
+@media(min-width: 501px) and (max-width: 800px){
 .post-grid {
   display: grid;
-  grid-template-columns: 400px 300px;
-  width: 750px;
+  grid-template-columns: 500px;
+  width: max-content;
   max-width: 95%;
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  grid-row-gap: 30px;
   top: 34px;
-  margin-bottom: 45px;
-}
+  left: -3px;
+  padding-bottom: 52px;
+  margin-bottom: 0;
+}}
 .intro-two {
   margin: auto;
   width: max-content;
@@ -282,13 +441,10 @@ position: relative;
 .projects-section {
   margin-right: auto;
   margin-left: auto;
-  width: max-content;
+  width: 630px;
   max-width: 95%;
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  column-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .projects-section-inner {
   margin-right: auto;
@@ -322,23 +478,104 @@ position: relative;
   .post-grid {
     display: grid;
     grid-template-columns: 300px;
-    width: 300px;
-    max-width: 95%;
+    width: 420px;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    top: 34px;
-    margin-bottom: 30px;
-  }.projects-section {
+    top: 13px;
+    left: 0;
+    margin-bottom: 10px;
+}
+
+  .other-posts {
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+    width: 565px;
+    max-width: 100%;
+    font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
+    font-size: 27px;
+}
+
+  .tech-posts  {
+    font-size: 20px;
+    padding-bottom: 10px;
     margin-right: auto;
     margin-left: auto;
-    width: 350px;
-    max-width: 90%;
-    display: grid;
-    grid-template-columns: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 562px;
+    max-width: 95%;
+    font-weight: 400;
   }
+
+  .health-posts {
+    font-size: 20px;
+    padding-bottom: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 565px;
+    max-width: 95%;
+  }
+  .recent-posts {
+    margin: 25px 0 -11px 0;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    width: 562px;
+    max-width: 90% !important;
+    font-size: 27px;
+}
+  .topics2 {
+    position: relative;
+    display: flex;
+    top: -2px;
+    column-gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow-x: scroll;
+    max-width: 94%;
+  }
+}
+  .main-projects {
+    position: relative;
+    width: 407px;
+    max-width: 95%;
+    margin-right: auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 19px;
+    z-index: 9;
+  }
+  .posts-section {
+    width: 95%;
+    max-width: 95%;
+  }
+  .projects-section {
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    max-width: 90%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .topic-btn {
+    border-radius: 9px;
+    padding: 2px 10px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 19px;
+    text-decoration: none;
+    border: 2px solid gray;
+    background-color: #fff;
+    font-weight: 400;
+}
   .desktopDiv {
     display: none;
   }
@@ -348,24 +585,67 @@ position: relative;
     text-align: left;
     font-size: 32px;
 }
-#main-content > div > div.l-stack.l-stack--large > section > div > div > div.topics-section > h2:nth-child(2) > div > a.gray-link.topic-btn {
+#tools-btn {
   position: relative;
-  top: 5px;
+  top: 0px;
 }
-
+#lessons-btn {
+  position: relative;
+}
+#fiction-btn {
+  position: relative;
+}
 .latest-posts {
     font-size: 30px;
 }
 .see-posts {
-  margin: 14px 5px 6px 10px;
-  position: relative;
-  bottom: 2px;
-}
-}
-@media (max-width: 370px){
-  .tools2 {
+    padding: 6px 11px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 1px 3px 6px 12px;
+    font-weight: 400;
     position: relative;
-    top: 6px;
+    bottom: 2px;
+    background: #f6f8fb;
+}}
+@media(min-width: 400px){
+  #tools-btn2 {
+    position: relative;
+    top: 0px;
   }
 }
-
+@media(max-width: 420px){
+  #tools-btn2 {
+    position: relative;
+    top: 0px;
+  }
+  .topics2 {
+    position: relative;
+    display: flex;
+    top: -2px;
+    column-gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    overflow-x: scroll;
+    max-width: 94%;
+}
+  .contact-section2 {
+    position: relative;
+    top: 15px;
+}
+}
+@media (max-width: 335px){
+  #tools-btn {
+    position: relative;
+    top: 0px;
+  }
+  #lessons-btn {
+    position: relative;
+  }
+  #fiction-btn {
+    position: relative;
+  }
+}

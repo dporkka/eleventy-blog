@@ -7,20 +7,30 @@
 
 .t-page .l-stack > img,
 .t-page .l-stack > pre,
-.t-page .l-stack > table,
-.t-page .l-stack > ol,
-.t-page .l-stack > blockquote {
+.t-page .l-stack > table {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+.t-page .l-stack > ol {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.t-page .l-stack > ul {
-  margin-bottom: 2rem;
+.t-page .l-stack>ul {
+  margin-bottom: 35px;
+  margin-top: -29px;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  max-width: 100%;
+  width: 565px;
 }
 
-.l-stack > h1,
+.l-stack > h1 {
+  font-size: 32px;
+}
 .l-stack > h3,
 .l-stack > h4,
 .l-stack > h5,
@@ -29,23 +39,32 @@
 .l-stack > .h3,
 .l-stack > .h4,
 .l-stack > .h5 {
-  margin-top: 2rem;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: -5px;
 }
 .l-stack > .h3 {
-  // margin-top: 2rem;
-  // margin-left: auto;
-  // margin-right: auto;
-  // width: max-content;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  /* width: 100px; */
-  /* text-align: left; */
 }
-.l-stack > h2 {
-  margin-top: 2rem;
+// .l-stack>h2 {
+//   margin-top: 2rem;
+//   text-align: left;
+//   margin-right: auto;
+//   margin-left: auto;
+//   width: 565px;
+// }
+.l-stack>h2 {
+  margin-top: 22px;
   text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  width: 675px;
+  max-width: 100%;
 }
+
 @media(max-width: 800px){
   .l-stack > .h3 {
   margin-top: 25px;
@@ -54,5 +73,34 @@
   margin-right: auto;
   font-size: 27px;
   width: max-content;
+}
+.l-stack>h2 {
+  margin-top: 2rem;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  width: 565px;
+  max-width: 100%;
+}
+.l-stack > h1 {
+  font-size: 27px;
+  max-width: 100%;
+}
+.t-page .l-stack>ul {
+  margin-bottom: 35px;
+  margin-top: -21px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  width: 565px;
+}
+.l-stack>h2 {
+  margin-top: 1rem;
+  text-align: left;
+  margin-left: auto;
+  margin-top: 17px;
+  width: 569px;
+  margin-right: auto;
+  max-width: 100%;
 }
 }

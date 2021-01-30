@@ -1,15 +1,19 @@
 $bp-container: 800px;
-
 .l-container {
   // --container-margin: #{$BASE_UNIT / 2};
     margin-right: auto;
     margin-left: auto;
     width: 100vw;
 }
-header.l-container.l-measure {
+body > div > div {
   background:#fedb8b;
-  width: 100vw !important;
-  max-width: 100vw;
+}
+header.l-container.l-measure {
+  // max-width: 100vw;
+  background: white;
+  width: 100vw!important;
+  max-width: max-content;
+  border-bottom: 2px solid lightgrey;
 }
 .l-container {
   margin: 0 var(--container-margin);
@@ -17,7 +21,6 @@ header.l-container.l-measure {
 
 .l-measure {
   max-width: 65ch;
-
 }
 
 #main-content {
@@ -25,5 +28,3 @@ header.l-container.l-measure {
   margin-left: 50%;
   transform: translateX(-50%);
 }
-
-

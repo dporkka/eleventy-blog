@@ -51,7 +51,7 @@ body {
 }
 a {
   text-decoration: underline;
-  text-decoration-thickness: 0.2em;
+  text-decoration-thickness: 2px;
   text-decoration-skip-ink: auto;
   cursor: pointer;
 }
@@ -77,10 +77,9 @@ img {
     scroll-behavior: auto !important;
   }
 }
-
 :focus {
-  outline: 2px solid $COLOR_MID;
-  outline-offset: 2px;
+  outline: 2px dashed $COLOR_MID;
+  // outline-offset: 2px;
 }
 [tabindex="-1"]:focus {
   outline: none;

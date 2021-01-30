@@ -21,28 +21,34 @@
   width: 100%;
 }
 .socialicons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 280px;
-  margin-right: auto;
-  align-items: center;
-  margin-left: auto;
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    z-index: 999;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 280px;
+    margin-right: auto;
+    align-items: center;
+    margin-left: auto;
 }
 .fa-twitter{
   position: relative;
   top: 1px;
+  width: 34px;
 }
 .fa-github{
   position: relative;
   top: 0px;
+  width: 34px;
 }
 .fa-linkedin-in {
   position: relative;
   bottom: 2px;
+  width: 34px;
 }
 /*--- RSS ---*/
-#contact > div > div > div.socialicons > li:nth-child(4) > a > svg{
+  .fa-rss {
   font-size: 19px;
   width: 25px;
   position: relative;
@@ -70,7 +76,10 @@
 }
 @media(max-width: 800px){
   .l-site-footer {
-    margin-top: 50px;
-    padding: 25px 0 15px 0;
+    margin-top: 0px;
+    padding: 8px 0 2px 0;
   } 
+  .l-site-footer-split {
+    padding-top: 26px;
+  }
 }

@@ -1,5 +1,5 @@
 ---
-title: "Things Can Change in the Flash of a Shoe"
+title: "The Shoe Flash"
 date: "2020-04-20"
 tags:
   - fiction

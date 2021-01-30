@@ -22,6 +22,7 @@
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  // border-bottom: 2px solid lightgray;
 }
 
 .l-post-intro > * + * {
@@ -40,6 +41,8 @@
   font-size: 16px;
   text-align: center;
   width: fit-content !important;
+  position: relative;
+  bottom: 10px;
 }
 
 .read-more {
@@ -60,5 +63,17 @@
   font-size: 16px;
   text-align: center;
   width: fit-content !important;
+  position: relative;
+  bottom: 4px;
+}
+}
+@media (max-width: 500px){
+  .post-meta {
+  color: $COLOR_MID;
+  font-size: 15px;
+  text-align: center;
+  width: fit-content !important;
+  position: relative;
+  bottom: 4px;
 }
 }

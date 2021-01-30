@@ -1,15 +1,12 @@
 .l-navigation {
   display: flex;
 }
-
 .l-navigation > * {
   white-space: pre;
 }
-
 .l-navigation > * + * {
   padding: 0 0.25rem;
 }
-
 .navigation > li > a {
   text-decoration: none;
   font-size: 22px;
@@ -28,7 +25,6 @@
   justify-content: space-between;
   width: 400px;
 }
-
 .l-footer-nav {
   display: var(--footer-nav-display);
   position: relative;
@@ -49,14 +45,23 @@ body > div > div > header > nav > ul > li:nth-child(1) > a{
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: -11px;
+    margin-top: -15px;
     position: relative;
-    left: -8px;
-  }
-
+    left: 0px;
+}
   .navigation > li > a {
     font-size: 19px;
     text-transform: capitalize;
     padding: 0 2px;
+}
+}
+
+@media (max-width: 799px) and (min-width:600px){
+.navigation>li>a {
+    font-size: 19px;
+    text-transform: capitalize;
+    padding: 0 2px;
+    position: relative;
+    top: 5px;
 }
 }

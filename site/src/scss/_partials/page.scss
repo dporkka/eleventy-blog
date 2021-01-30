@@ -4,6 +4,7 @@
 .welcome{
   text-align: center;
   font-size: 53px;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
 }
 .intro-div {
   margin-left: auto;
@@ -11,13 +12,13 @@
   width: 447px;
   position: relative;
   padding-right: 40px;
-  top: -37px;
+  top: -18px;
 }
 .david-beach {
   border-radius: 50%;
 }
 .main-h2 {
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -27,16 +28,22 @@
   z-index: 2;
   top: 45px;
   padding-bottom: 15px;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
 }
 .img-container {
- position: relative;
+  position: relative;
+  bottom: 7px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
 }
 .flex-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 824px;
-  max-width: 95%;
+  background: lightcyan;
 }
 @media(max-width: 800px){
   .flex-container {
@@ -46,7 +53,8 @@
     align-items: center;
     padding-top: 17px;
     width: 824px;
-    max-width: 95%;
+    max-width: 100%;
+    background: lightcyan;
 }
   .intro-div {
     margin-left: auto;
@@ -58,7 +66,7 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    padding-bottom: 22px !important;
+    padding-bottom: 2px;
    
   }
   .welcome{
@@ -67,9 +75,10 @@
     top: -25px;
     font-size: 35px;
     z-index: 3;
+    font-family: -apple-system, 'Segoe UI', 'Open Sans', Roboto, sans-serif;
   }
   .main-h2 {
-    font-size: 19px;
+    font-size: 24px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -97,10 +106,10 @@
   .david-beach {
     border-radius: 50%;
     position: relative;
-    top: -12px;
+    top: -7px;
     left: 5px;
     margin-bottom: 32px;
-    margin-top: 0px;
+    margin-top: 0;
     width: 275px;
     height: 275px;
   }
@@ -109,7 +118,7 @@
     position: relative;
     top: -30px;
     width: 320px;
-    font-size: 35px;
+    font-size: 38px;
     z-index: 3;
   }
 }
@@ -120,7 +129,7 @@
       top: -30px;
       left: -18px;
       width: 320px;
-      font-size: 35px;
+      font-size: 38px;
       z-index: 3;
   }
 }

@@ -2,8 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+  width: max-content;
 }
-
+footer > h2 {
+  text-align: center !important;
+  margin-right: 25px !important;
+}
 .l-post-tags {
   list-style: none;
   display: flex;
@@ -13,10 +19,12 @@
 .post-tag {
   display: inline-block;
   padding: 5px 10px;
-  font-size: 17px;
-  border-radius: 24px;
-  background: #FFC300;
-  border: solid 1px #ccc;
+  font-size: 20px;
+  border-radius: 7px;
+  position: relative;
+  right: 7px;
+  background: white;
+  border: solid 2px gray;
   text-decoration: none;
   margin-right: 5px;
   text-transform: capitalize;
@@ -25,6 +33,5 @@
 
 .post-tag:hover,
 .post-tag:focus {
-  text-decoration: underline;
-  background: #fff;
+  background: #f4f4f4;
 }

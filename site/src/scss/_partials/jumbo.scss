@@ -3,12 +3,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background: lightcyan;
   justify-content: center;
 }
 
 .l-jumbo > * + * {
   margin-top: 1rem;
   max-width: 50ch;
+  background: lightcyan;
 }
 .post-heading {
   padding: 2rem 0 0 0;
@@ -26,6 +28,7 @@
   .l-jumbo {
     padding: 8px 0px;
     display: flex;
+    background: lightcyan;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;

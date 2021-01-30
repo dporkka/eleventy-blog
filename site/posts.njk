@@ -11,14 +11,18 @@ layout: "layouts/page.njk"
 
     <div class="topics-section2">
       <div class="topics2">
-        <a href="/tags/design" class="yellow-link topic-btn">Design</a>
-        <a href="/tags/fiction" class="orange-link topic-btn">Fiction</a>
-        <a href="/tags/lessons" class="yellow-link topic-btn">Lessons</a>
-        <a href="/tags/tools" class="gray-link topic-btn tools2">Tools</a>
+        <a href="/posts/#tech-posts" class="yellow-link topic-btn" id="tech-btn">Tech</a>
+        <a href="/posts/#health-posts" class="yellow-link topic-btn" id="health-btn">Health</a>
+          <a href="/tags/tools" class="gray-link topic-btn" id="tools-btn2">Tools</a>
+        <a href="/tags/lessons" class="yellow-link topic-btn" id="lessons-btn">Lessons</a>
+        <a href="/tags/fiction" class="orange-link topic-btn" id="fiction-btn">Fiction</a>
+        <a href="/tags/rants" class="orange-link topic-btn" id="fiction-btn">Rants</a>
       </div>
       <div>
+
+        
 {# Post list content #}
-{% set introHeading %}Posts{% endset %}
+{% set introHeading %}Posts tagged: {{ tag }}{% endset %}
 {% set postListItems = posts %}
 
 {% if postListItems.length < collections.posts.length %}
@@ -29,10 +33,30 @@ layout: "layouts/page.njk"
 
 
 {% block content %}
-
   <div class="l-stack l-stack--large l-stack--large">
     {# {% include "partials/intro.njk" %} #}
+     <h2 class="recent-posts"><strong>Recent Articles</strong></h2>
     {% include "partials/post-list.njk" %}
+    
     {% include "partials/pagination.njk" %}
   </div>
 {% endblock %}
+
+ 
+ <div class="tech-wrapper" id="tech-posts">
+   <h3 class="other-posts"> Tech Articles</h3>
+  <a class="tech-posts" href="https://www.spingroup.com/blog/2019/9/3/how-to-resize-large-pictures-to-speed-up-your-site">How To Optimize Your Website Images To Improve Loading Speeds (Spin Group)</a>
+    <a class="tech-posts" href="https://www.spingroup.com/blog/2019/9/3/website-troubleshooting-tips">Website Troubleshooting Tips To Improve Performance, Security, And Reliability (Spin Group)</a>
+       <a class="tech-posts" href="https://www.spingroup.com/blog/2019/11/14/how-to-improve-accessibility-to-offer-the-best-user-experience">How To Offer The Best User Experience By Improving Accessibility (Spin Group)</a>
+    <a class="tech-posts" href="https://www.spingroup.com/blog/2019/8/30/using-divi">Building Websites With The Divi Visual Builder (Spin Group)</a>
+      <a class="tech-posts" href="https://www.spingroup.com/blog/2019/8/30/37-mac-keyboard-shortcuts-for-digital-professionals">37 Keyboard Shortcuts For Mac Users To Improve Productivity (Spin Group)</a>
+         <a class="tech-posts" href="https://www.spingroup.com/blog/2019/9/13/wordpress-plugins-that-spin-group-uses">WordPress Plugins That Spin Group Uses (Spin Group)</a>
+  </div>
+  
+   
+ <div class="health-wrapper" id="health-posts">
+   <h3 class="other-posts">Health Articles</h3>
+  <a class="health-posts" href="https://5minutehealth.com/the-ultimate-guide-to-better-sleep/">The Ultimate Guide to Better Sleep (5MH)</a>
+    <a class="health-posts" href="https://5minutehealth.com/hidden-health/">How to Secretly Keep People Healthy (5MH)</a>
+    <a class="health-posts" href="https://5minutehealth.com/how-to-optimize-your-epigenetics/">How to Optimize Your Epigenetics (5MH)</a>
+  </div>
