@@ -2,13 +2,13 @@
  <br>
  <h3>Superdapo is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit based off the <a href="https://github.com/MadeByMike/supermaya">Supermaya template</a> by <a href="https://twitter.com/MikeRiethmuller">Mike Riethmuller</a></h3><br>
  <p>See a live demo of this template <a href="https://superdapo.netlify.app/">here</a></p>
- <h3><strong>Superdapo desktop view</strong><h3>
+ <h3><strong>Superdapo desktop view</strong></h3>
     <img src="site/static/superdapo-screenshot.png" width="800"/>
     <br>
-      <h3><strong>Supermaya desktop view</strong><h3>
+      <h3><strong>Supermaya desktop view</strong></h3>
     <br><img src="site/static/supermaya-screenshot.png" width="800"/>
     <br>
-    <h3><strong>Superdapo mobile view</strong><h3>
+    <h3><strong>Superdapo mobile view</strong></h3>
      <img src="site/static/superdapo-mobile.png" width="350"/>
      <br>
     <p>Some differences between this template and the Supermaya template, include:</p>
